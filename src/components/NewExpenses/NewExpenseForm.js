@@ -60,7 +60,7 @@ const NewExpenseForm = ({ onSaveExpense }) => {
           <label>Amount</label>
           <input
             type="number"
-            min="00"
+            min="0.01"
             onChange={amountChangeHandler}
             value={userInput.enteredAmount}
           />
